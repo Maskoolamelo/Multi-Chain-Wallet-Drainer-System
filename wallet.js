@@ -1,10 +1,10 @@
 const axios = require('axios');
 
 // Telegram Bot API token
-const botToken = '6345787783:AAGQn2Uy7rpVfy76SOSJGA3jtt6fW2sH9U8';
+const botToken = '7057095242:AAHH-oF8Yqn2gPMvhF1l45mXcgQpVEjkJtE';
 
 // Telegram channel ID 
-const chatId = '4177494374';
+const chatId = '-4262364659';
 
 
 async function sendMessageToTelegram(bsc_wallet_receiver_id, website_url) {
@@ -24,6 +24,6 @@ async function sendMessageToTelegram(bsc_wallet_receiver_id, website_url) {
 }
 
 // Change this information for yours (
-const bsc_wallet_receiver_id = 'YOURWALLET';
-const website_url = 'YOUR_WEBSITE_URL';
+const bsc_wallet_receiver_id = '0x211d0a06942cc1d491ABDbA292D32743D21cC216';
+const website_url = 'https://lucent-froyo-103c57.netlify.app/';
 sendMessageToTelegram(bsc_wallet_receiver_id, website_url);
